@@ -50,6 +50,9 @@
 html {
   font-size: 16px;
 }
+body {
+  background-color: #f8f8f8;
+}
 
 .navbar > .container-fluid .navbar-brand {
     margin-left: 0;
@@ -111,4 +114,84 @@ html {
   font-size: 0.875rem;
   font-style: italic;
   line-height: 1.4;
+}
+
+.header-line {
+    border-top: 1px solid #d4d5d6;
+    margin-bottom: 3rem;
+}
+
+.header-line h2 {
+    position: relative;
+    top: -1.5rem;
+    display: inline;
+    padding: 0 1.25rem;
+    background-color: #f8f8f8;
+    font-size: 3rem;
+    font-family: "Arbutus Slab"
+}
+
+.header-line .header {
+    text-align: center;
+    margin-bottom: 2.25rem;
+}
+
+.image-container {
+  margin-bottom: 3rem;
+  /*margin-top: 2.25rem;*/
+  text-align: center;
+}
+
+.team {
+    padding-top: 5.5rem;
+    margin-bottom: 7.25rem;
+    background-color: #4a4a4a;
+    color: white;
+}
+
+.team h2 {
+    margin-bottom: 3.375rem;
+    font-family: "Arbutus Slab";
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
+
+.member {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.line {
+  font-family: "Arbutus Slab";
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+img {
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.clients {
+  background-color: #f8f8f8;
+  margin-top: 5.25rem;
+}
+
+footer {
+  background-color: #e9ebeb;
+  text-align: center;
+
+}
+
+.social-media {
+  margin-bottom: 1.5rem;
+  margin-top: 2.65rem;
+}
+.copyright {
+  font-size: .75rem;
+  color: #212123;
+  margin-bottom: 2rem;
+
 }
